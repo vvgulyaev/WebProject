@@ -9,8 +9,43 @@ header .container, main .container, footer .container {
 	margin: auto;
 }
 header {
-	background: white;
-}
+			background: white;
+			overflow: auto;
+		}
+header h1 {
+			float: left;
+			width: 570px;
+			}
+header nav {
+			float: right;
+			width: 285px;
+			}
 main {
 	background: white;
+	overflow: auto;
 }
+
+.left {
+			float: left;
+			width: 570px;
+			/*overflow: auto;*/
+			}
+.right {
+			float: right;
+			width: 285px;
+			/*overflow: auto;*/
+			}
+
+footer {
+		clear: both;
+		}
+.contact {
+			float: left;
+			width: 570px;
+			}
+.sitemap {
+			float: right;
+			width: 285px;
+			}
+
+
