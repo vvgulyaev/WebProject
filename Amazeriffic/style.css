@@ -1,5 +1,11 @@
 body {
-	background: #f9e933;
+		background: #f9e933;
+		#margin-top: 10px;
+		#border-top-width: 11px;
+		#padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom-width: 20px;
+		margin-bottom: 10px;	
 }
 header, main, footer {
 	min-width: 855px;
@@ -22,13 +28,24 @@ header nav {
 			}
 head, body {
 				font-family: 'Droid Sans', sans-serif;
+				font-size: 100%;
 	}
 h1, h2, h3, h4 {
 				font-family: 'Ubuntu', sans-serif;
 				}
+h1 {
+		font-size: xx-large;
+}
+h2 {
+		font-size: x-large;
+}
+h3 {
+		font-size: large;
+}
+
 main {
-	background: white;
-	overflow: auto;
+		background: white;
+		overflow: auto;
 }
 
 .left {
@@ -53,5 +70,13 @@ footer {
 			float: right;
 			width: 285px;
 			}
+
+a {
+	color: red;
+	text-decoration: none; /* убираем подчеркивание по умолчанию */
+}
+a:hover {
+			text-decoration: underline;
+		}
 
 
