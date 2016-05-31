@@ -58,10 +58,10 @@ main {
 			width: 285px;
 			/*overflow: auto;*/
 			}
-
 footer {
-		clear: both;
+			clear: both;
 		}
+
 .contact {
 			float: left;
 			width: 570px;
