@@ -1,0 +1,27 @@
+body {
+		background: lightgrey;
+		margin-top: 0px;
+		border-top-width: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		border-bottom-width: 0px;
+		margin-bottom: 0px;
+	}
+	header{
+			background: white;
+			width: 800px;
+			margin: auto;
+	}
+
+	main{
+			background: blue;
+			width: 800px;
+			margin: auto;
+	}
+	
+	footer{
+			background: red;
+			width: 800px;
+			margin: auto;
+	}
+
