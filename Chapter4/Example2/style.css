@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.comment-input, .comments {
+		margin-top: 30px;
+		margin-bottom: 30px;
+}
+.comments p{
+		margin-bottom: 10px;
+}
+header, main, footer {
+	max-width: 855px;
+	min-width: 855px;
+	margin: auto;
+}
+header {
+			overflow: auto;
+		}
+hr {
+		align: center;
+		width: 850px;
+	}
+#col1{
+		width:305px;
+}
+#col2{
+		width:565px;
+}
+.comment-input {
+			float: left;
+			width: 285px;
+			}
+.comments {
+			float: right;
+			width: 570px;
+			}
+.comments p:nth-child(even) {
+			background: lavender;
+}
+.comments p:nth-child(odd) {
+			background: gainsboro;
+}
+footer {
+		font-size: smaller;
+		}
