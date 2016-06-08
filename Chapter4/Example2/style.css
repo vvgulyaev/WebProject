@@ -6,9 +6,6 @@
 		margin-top: 30px;
 		margin-bottom: 30px;
 }
-.comments p{
-		margin-bottom: 10px;
-}
 header, main, footer {
 	max-width: 855px;
 	min-width: 855px;
@@ -37,9 +34,11 @@ hr {
 			}
 .comments p:nth-child(even) {
 			background: lavender;
+			margin-bottom: 10px;
 }
 .comments p:nth-child(odd) {
 			background: gainsboro;
+			margin-bottom: 10px;
 }
 footer {
 		font-size: smaller;
