@@ -5,7 +5,6 @@ var main = function ()
 	{
 		var $new_comment;
 		var comment_text = $(".comment-input input").val();
-		console.log(comment_text);
 		if (comment_text !== "") 
 		{
 			$new_comment = $("<p>").text(comment_text);
